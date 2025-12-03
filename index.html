@@ -2,197 +2,225 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AutoQu - Automation Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description" content="AutoQu - Smart Automation Solutions for modern enterprises">
+  <meta name="author" content="AutoQu">
+  <title>AutoQu - Smart Automation Solutions</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Header -->
-  <header>
+  <header role="header">
     <div class="container">
-      <h1 class="logo-header">
+      <h1>
         <a href="#" title="AutoQu">AutoQu</a>
       </h1>
-      <nav class="navy">
+      <nav role="header-nav" class="navy">
         <ul>
           <li class="nav-active"><a href="#work" title="Work">Work</a></li>
           <li><a href="#about" title="About">About</a></li>
           <li><a href="#contact" title="Contact">Contact</a></li>
         </ul>
+        <div id="menu-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </div>
   </header>
 
-  <!-- Main Content -->
-  <main class="container">
-    <!-- Hero Section -->
-    <div class="row hero-section">
+  <!-- Main -->
+  <main role="main-home-wrapper" class="container">
+    <div class="row">
+      <!-- Hero Section -->
       <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <article>
+        <article role="pge-title-content">
           <header>
             <h2><span>AutoQu</span> Smart Automation Solutions.</h2>
           </header>
-          <p>Harness the power of intelligent workflow automation. Streamline operations, reduce manual tasks, and scale your business effortlessly with cutting-edge automation technology.</p>
-          <div class="hero-cta">
-            <a href="#work" class="btn-explore">Explore Solutions</a>
-            <a href="#contact" class="btn-contact">Get Started</a>
-          </div>
+          <p>Harness the power of intelligent workflow automation. Streamline operations, reduce manual tasks, and scale your business effortlessly.</p>
         </article>
       </section>
+
       <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-        <figure class="effect-card">
-          <div class="placeholder-image primary-gradient"></div>
+        <figure class="effect-oscar">
+          <div class="placeholder-image img-1" role="img" aria-label="Process Automation"></div>
           <figcaption>
-            <h3>Process Automation</h3>
+            <h2>Process <span>Automation</span></h2>
             <p>Automate repetitive tasks and workflows</p>
+            <a href="#work">View more</a>
           </figcaption>
         </figure>
       </section>
+
+      <div class="clearfix"></div>
+
+      <!-- Portfolio Grid Left -->
+      <section id="work" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
+        <ul class="grid-lod effect-2" id="grid">
+          <li>
+            <figure class="effect-oscar">
+              <div class="placeholder-image img-2" role="img" aria-label="Workflow Integration"></div>
+              <figcaption>
+                <h2>Workflow <span>Integration</span></h2>
+                <p>Seamlessly connect your tools and services</p>
+                <a href="#work">View more</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="effect-oscar">
+              <div class="placeholder-image img-3" role="img" aria-label="Enterprise Solutions"></div>
+              <figcaption>
+                <h2>Enterprise <span>Solutions</span></h2>
+                <p>Scale automation across your organization</p>
+                <a href="#work">View more</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="effect-oscar">
+              <div class="placeholder-image img-4" role="img" aria-label="Custom Workflows"></div>
+              <figcaption>
+                <h2>Custom <span>Workflows</span></h2>
+                <p>Build tailored automation for your needs</p>
+                <a href="#work">View more</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="effect-oscar">
+              <div class="placeholder-image img-5" role="img" aria-label="Real-time Monitoring"></div>
+              <figcaption>
+                <h2>Real-time <span>Monitoring</span></h2>
+                <p>Track and optimize your automation</p>
+                <a href="#work">View more</a>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Portfolio Grid Right -->
+      <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
+        <ul class="grid-lod effect-2" id="grid-2">
+          <li>
+            <figure class="effect-oscar">
+              <div class="placeholder-image img-6" role="img" aria-label="API Management"></div>
+              <figcaption>
+                <h2>API <span>Management</span></h2>
+                <p>Control integrations with powerful APIs</p>
+                <a href="#work">View more</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="effect-oscar">
+              <div class="placeholder-image img-7" role="img" aria-label="Security First"></div>
+              <figcaption>
+                <h2>Security <span>First</span></h2>
+                <p>Enterprise-grade protection for your data</p>
+                <a href="#work">View more</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="effect-oscar">
+              <div class="placeholder-image img-8" role="img" aria-label="Performance Optimization"></div>
+              <figcaption>
+                <h2>Performance <span>Optimization</span></h2>
+                <p>Lightning-fast execution and processing</p>
+                <a href="#work">View more</a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="effect-oscar">
+              <div class="placeholder-image img-1" role="img" aria-label="Advanced Analytics"></div>
+              <figcaption>
+                <h2>Advanced <span>Analytics</span></h2>
+                <p>Gain insights into your automation impact</p>
+                <a href="#work">View more</a>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+
       <div class="clearfix"></div>
     </div>
 
-    <!-- Portfolio Section -->
-    <section id="work" class="portfolio-section">
-      <div class="row">
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-          <ul class="grid-lod effect-2" id="grid-1">
-            <li>
-              <figure class="effect-card">
-                <div class="placeholder-image secondary-gradient"></div>
-                <figcaption>
-                  <h3>Workflow <span>Integration</span></h3>
-                  <p>Seamlessly connect your tools and services</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="effect-card">
-                <div class="placeholder-image accent-gradient"></div>
-                <figcaption>
-                  <h3>Enterprise <span>Solutions</span></h3>
-                  <p>Scale automation across your organization</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="effect-card">
-                <div class="placeholder-image primary-gradient"></div>
-                <figcaption>
-                  <h3>Custom <span>Workflows</span></h3>
-                  <p>Build tailored automation for your needs</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="effect-card">
-                <div class="placeholder-image secondary-gradient"></div>
-                <figcaption>
-                  <h3>Real-time <span>Monitoring</span></h3>
-                  <p>Track and optimize your automation</p>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
-        </section>
-
-        <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-          <ul class="grid-lod effect-2" id="grid-2">
-            <li>
-              <figure class="effect-card">
-                <div class="placeholder-image accent-gradient"></div>
-                <figcaption>
-                  <h3>API <span>Management</span></h3>
-                  <p>Control integrations with powerful APIs</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="effect-card">
-                <div class="placeholder-image primary-gradient"></div>
-                <figcaption>
-                  <h3>Security <span>First</span></h3>
-                  <p>Enterprise-grade protection for your data</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="effect-card">
-                <div class="placeholder-image secondary-gradient"></div>
-                <figcaption>
-                  <h3>Performance <span>Optimization</span></h3>
-                  <p>Lightning-fast execution and processing</p>
-                </figcaption>
-              </figure>
-            </li>
-            <li>
-              <figure class="effect-card">
-                <div class="placeholder-image accent-gradient"></div>
-                <figcaption>
-                  <h3>Advanced <span>Analytics</span></h3>
-                  <p>Gain insights into your automation impact</p>
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
-        </section>
-        <div class="clearfix"></div>
-      </div>
-    </section>
-
     <!-- About Section -->
     <section id="about" class="about-section">
-      <div class="row">
-        <section class="col-xs-12">
-          <article>
-            <header>
-              <h2>About <span>AutoQu</span></h2>
-            </header>
-            <p>AutoQu is a next-generation automation platform designed for modern teams and enterprises. We understand that every organization has unique workflow challenges, which is why we've built a flexible, powerful solution that adapts to your needs.</p>
-            <p>Our mission is to empower businesses by automating the mundane, enabling teams to focus on innovation and growth. With AutoQu, you get reliability, security, and the insights you need to drive business success.</p>
-          </article>
-        </section>
+      <div class="about-content">
+        <p><strong>AutoQu</strong> is a next-generation automation platform designed for modern teams and enterprises. We understand that every organization has unique workflow challenges, which is why we've built a flexible, powerful solution that adapts to your needs.</p>
+        <p>Our mission is to empower businesses by automating the mundane, enabling teams to focus on innovation and growth. With AutoQu, you get reliability, security, and the insights you need to drive business success.</p>
       </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
-      <div class="row">
-        <section class="col-xs-12">
-          <article>
-            <header>
-              <h2>Ready to <span>Transform?</span></h2>
-            </header>
-            <p>Join thousands of organizations using AutoQu to streamline their operations and accelerate growth.</p>
-            <a href="mailto:hello@autoqu.io" class="btn-contact-primary">Get in Touch</a>
-          </article>
-        </section>
-      </div>
+      <article role="pge-title-content" class="contact-header">
+        <header>
+          <h2><span>Ready to</span> Transform?</h2>
+        </header>
+        <p>
+          <a href="mailto:hello@autoqu.io" title="Email us">hello@autoqu.io</a>
+          <a href="#" title="Visit us">San Francisco, CA</a>
+        </p>
+      </article>
     </section>
   </main>
 
   <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <h4>AutoQu</h4>
-          <p>Intelligent automation for the modern enterprise.</p>
-        </div>
-        <div class="footer-nav">
-          <ul>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2025 AutoQu. All rights reserved.</p>
-      </div>
-    </div>
+  <footer role="footer">
+    <h1>
+      <a href="#" title="AutoQu">AutoQu</a>
+    </h1>
+    <nav role="footer-nav">
+      <ul>
+        <li><a href="#work" title="Work">Work</a></li>
+        <li><a href="#about" title="About">About</a></li>
+        <li><a href="#contact" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <ul role="social-icons">
+      <li><a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a></li>
+      <li><a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a></li>
+      <li><a href="https://github.com/AutoQu" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a></li>
+    </ul>
+    <p class="copy-right">&copy; 2025 AutoQu. All rights reserved.</p>
   </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.getElementById('menu-button').addEventListener('click', function() {
+      this.classList.toggle('open');
+      document.querySelector('.navy ul').classList.toggle('show');
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.navy ul a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        document.getElementById('menu-button').classList.remove('open');
+        document.querySelector('.navy ul').classList.remove('show');
+      });
+    });
+
+    // Animate grid items on scroll
+    function animateOnScroll() {
+      var items = document.querySelectorAll('.grid-lod li');
+      items.forEach(function(item) {
+        var rect = item.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) {
+          item.classList.add('shown', 'animate');
+        }
+      });
+    }
+    
+    window.addEventListener('scroll', animateOnScroll);
+    window.addEventListener('load', animateOnScroll);
+  </script>
 </body>
 </html>
